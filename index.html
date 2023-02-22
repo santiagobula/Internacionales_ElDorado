@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Mapa de viajeros Aeropuerto El Dorado Bogota 🇨🇴</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+
+                h1{
+			    text-align: center;
+                background-color: black;
+                color: white;
+                padding: 10px;
+		        }
+
+                #map_3acbb6b6f5234de8e2479d52f8ef7dd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>
+    
+    <h1>El Dorado 2022 🛩 | Destinos internacionales por número de pasajeros anuales</h1>
+    
+            <div class="folium-map" id="map_3acbb6b6f5234de8e2479d52f8ef7dd7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3acbb6b6f5234de8e2479d52f8ef7dd7 = L.map(
+                "map_3acbb6b6f5234de8e2479d52f8ef7dd7",
+                {
+                    center: [4.7014, -42.1469],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d316195c4df78823ead2b7d01115132a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var circle_marker_f1e016e841c433b594a6919c8ed1eac5 = L.circleMarker(
+                [-12.043333, -77.028333],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.13195, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_577bb683991c20be8ebed7343bce0c78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dec7bcdb441e915f757906be62b17e9 = $(`<div id="html_1dec7bcdb441e915f757906be62b17e9" style="width: 100.0%; height: 100.0%;">885278 Pasajeros</div>`)[0];
+                popup_577bb683991c20be8ebed7343bce0c78.setContent(html_1dec7bcdb441e915f757906be62b17e9);
+            
+        
+
+        circle_marker_f1e016e841c433b594a6919c8ed1eac5.bindPopup(popup_577bb683991c20be8ebed7343bce0c78)
+        ;
+
+        
+    
+    
+            circle_marker_f1e016e841c433b594a6919c8ed1eac5.bindTooltip(
+                `<div>
+                     Peru Lima, Peru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c13185229e85712e008d616310ce0a5 = L.circleMarker(
+                [40.4166909, -3.7003454],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.9687, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_1a82fe74ea505bdcfefcabb437893c46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dcf3986005c87b6f84e3d03df10b5ba = $(`<div id="html_0dcf3986005c87b6f84e3d03df10b5ba" style="width: 100.0%; height: 100.0%;">878748 Pasajeros</div>`)[0];
+                popup_1a82fe74ea505bdcfefcabb437893c46.setContent(html_0dcf3986005c87b6f84e3d03df10b5ba);
+            
+        
+
+        circle_marker_0c13185229e85712e008d616310ce0a5.bindPopup(popup_1a82fe74ea505bdcfefcabb437893c46)
+        ;
+
+        
+    
+    
+            circle_marker_0c13185229e85712e008d616310ce0a5.bindTooltip(
+                `<div>
+                     Spain Madrid, Spain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bf00c4f461a43d2ead75200bff3eb0a6 = L.circleMarker(
+                [19.433333, -99.133333],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.841625, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_3f533f57ab37e3bd0d8e36ce286b74a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46d59b9b4b00c2a03a550e1fbb586fbb = $(`<div id="html_46d59b9b4b00c2a03a550e1fbb586fbb" style="width: 100.0%; height: 100.0%;">833665 Pasajeros</div>`)[0];
+                popup_3f533f57ab37e3bd0d8e36ce286b74a1.setContent(html_46d59b9b4b00c2a03a550e1fbb586fbb);
+            
+        
+
+        circle_marker_bf00c4f461a43d2ead75200bff3eb0a6.bindPopup(popup_3f533f57ab37e3bd0d8e36ce286b74a1)
+        ;
+
+        
+    
+    
+            circle_marker_bf00c4f461a43d2ead75200bff3eb0a6.bindTooltip(
+                `<div>
+                     Mexico Mexico City, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c5cf3a8af15b33d8114374e7da872689 = L.circleMarker(
+                [8.9673, -79.5339],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.036575, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_e72af5930d57b4f0d5e97ff70dcc935a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b07ed98d57a8cb0ee0c6c08d83d5776 = $(`<div id="html_3b07ed98d57a8cb0ee0c6c08d83d5776" style="width: 100.0%; height: 100.0%;">801463 Pasajeros</div>`)[0];
+                popup_e72af5930d57b4f0d5e97ff70dcc935a.setContent(html_3b07ed98d57a8cb0ee0c6c08d83d5776);
+            
+        
+
+        circle_marker_c5cf3a8af15b33d8114374e7da872689.bindPopup(popup_e72af5930d57b4f0d5e97ff70dcc935a)
+        ;
+
+        
+    
+    
+            circle_marker_c5cf3a8af15b33d8114374e7da872689.bindTooltip(
+                `<div>
+                     Panama Panama City, Panama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_16d5c54a9088168bcad9ded1ae5516e9 = L.circleMarker(
+                [25.775084, -80.194702],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.646425, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_e27d1e0767a5ba1a47033e7bdf1936d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64bf05123dfd742ed7faa473e5dc9e37 = $(`<div id="html_64bf05123dfd742ed7faa473e5dc9e37" style="width: 100.0%; height: 100.0%;">745857 Pasajeros</div>`)[0];
+                popup_e27d1e0767a5ba1a47033e7bdf1936d2.setContent(html_64bf05123dfd742ed7faa473e5dc9e37);
+            
+        
+
+        circle_marker_16d5c54a9088168bcad9ded1ae5516e9.bindPopup(popup_e27d1e0767a5ba1a47033e7bdf1936d2)
+        ;
+
+        
+    
+    
+            circle_marker_16d5c54a9088168bcad9ded1ae5516e9.bindTooltip(
+                `<div>
+                     United States Miami, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4995f6837f6c69e1008a17ee5f846057 = L.circleMarker(
+                [-23.5486657, -46.6382522],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.07255, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_9415db830f4ff418061d0553505d8229 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a33e575afd1872d48b70153a27db701b = $(`<div id="html_a33e575afd1872d48b70153a27db701b" style="width: 100.0%; height: 100.0%;">642902 Pasajeros</div>`)[0];
+                popup_9415db830f4ff418061d0553505d8229.setContent(html_a33e575afd1872d48b70153a27db701b);
+            
+        
+
+        circle_marker_4995f6837f6c69e1008a17ee5f846057.bindPopup(popup_9415db830f4ff418061d0553505d8229)
+        ;
+
+        
+    
+    
+            circle_marker_4995f6837f6c69e1008a17ee5f846057.bindTooltip(
+                `<div>
+                     Brazil São Paulo, Brazil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82ee8b6c7560c2215d26d5fa7128fce6 = L.circleMarker(
+                [-33.45, -70.666667],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.052875, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_5c7cb06771aec875f5c5f3e49cf975c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3348c026bc76daf9a2522f3fb5538d3c = $(`<div id="html_3348c026bc76daf9a2522f3fb5538d3c" style="width: 100.0%; height: 100.0%;">642115 Pasajeros</div>`)[0];
+                popup_5c7cb06771aec875f5c5f3e49cf975c4.setContent(html_3348c026bc76daf9a2522f3fb5538d3c);
+            
+        
+
+        circle_marker_82ee8b6c7560c2215d26d5fa7128fce6.bindPopup(popup_5c7cb06771aec875f5c5f3e49cf975c4)
+        ;
+
+        
+    
+    
+            circle_marker_82ee8b6c7560c2215d26d5fa7128fce6.bindTooltip(
+                `<div>
+                     Chile Santiago de Chile
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a478722670c3b2adc4787972def595c = L.circleMarker(
+                [-0.214945, -78.5132],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.593575, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_9b49e8c92323542935ebc51dddd7d632 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf50df0ef0a7a107b0a67534d4bdbe9 = $(`<div id="html_3cf50df0ef0a7a107b0a67534d4bdbe9" style="width: 100.0%; height: 100.0%;">423743 Pasajeros</div>`)[0];
+                popup_9b49e8c92323542935ebc51dddd7d632.setContent(html_3cf50df0ef0a7a107b0a67534d4bdbe9);
+            
+        
+
+        circle_marker_0a478722670c3b2adc4787972def595c.bindPopup(popup_9b49e8c92323542935ebc51dddd7d632)
+        ;
+
+        
+    
+    
+            circle_marker_0a478722670c3b2adc4787972def595c.bindTooltip(
+                `<div>
+                     Ecuador Quito, Ecuador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4d4e5caba2d641d77acc0b8fd36a2a79 = L.circleMarker(
+                [21.1733972, -86.8281027],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.892775, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_64ba662f161bd5f38ac83d85f23f74f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c87a23580a3d0f08e4fb8792a5461a8e = $(`<div id="html_c87a23580a3d0f08e4fb8792a5461a8e" style="width: 100.0%; height: 100.0%;">355711 Pasajeros</div>`)[0];
+                popup_64ba662f161bd5f38ac83d85f23f74f1.setContent(html_c87a23580a3d0f08e4fb8792a5461a8e);
+            
+        
+
+        circle_marker_4d4e5caba2d641d77acc0b8fd36a2a79.bindPopup(popup_64ba662f161bd5f38ac83d85f23f74f1)
+        ;
+
+        
+    
+    
+            circle_marker_4d4e5caba2d641d77acc0b8fd36a2a79.bindTooltip(
+                `<div>
+                     Mexico Cancun, Mexico
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd9ecf4cfb2678e0ff80fe9df195d0a4 = L.circleMarker(
+                [26.1241631, -80.1435862],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.582025, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_7f6db4fbc567f48394f261b6bb7cdf12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d2cb4f5d91c618f2ed4ea988d8fdc76 = $(`<div id="html_5d2cb4f5d91c618f2ed4ea988d8fdc76" style="width: 100.0%; height: 100.0%;">343281 Pasajeros</div>`)[0];
+                popup_7f6db4fbc567f48394f261b6bb7cdf12.setContent(html_5d2cb4f5d91c618f2ed4ea988d8fdc76);
+            
+        
+
+        circle_marker_bd9ecf4cfb2678e0ff80fe9df195d0a4.bindPopup(popup_7f6db4fbc567f48394f261b6bb7cdf12)
+        ;
+
+        
+    
+    
+            circle_marker_bd9ecf4cfb2678e0ff80fe9df195d0a4.bindTooltip(
+                `<div>
+                     United States Fort Lauderdale, USA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9087237cb0b8a6a4c9dc6ce13d977d73 = L.circleMarker(
+                [40.7130466, -74.0072301],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.50585, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_44edf573f5a2a9edf0fa4028e16c6699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf77a1fea68cf246c4ac10ea7924aa35 = $(`<div id="html_bf77a1fea68cf246c4ac10ea7924aa35" style="width: 100.0%; height: 100.0%;">340234 Pasajeros</div>`)[0];
+                popup_44edf573f5a2a9edf0fa4028e16c6699.setContent(html_bf77a1fea68cf246c4ac10ea7924aa35);
+            
+        
+
+        circle_marker_9087237cb0b8a6a4c9dc6ce13d977d73.bindPopup(popup_44edf573f5a2a9edf0fa4028e16c6699)
+        ;
+
+        
+    
+    
+            circle_marker_9087237cb0b8a6a4c9dc6ce13d977d73.bindTooltip(
+                `<div>
+                     United States New York City, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a99ed5bdf659cdce58eefb2870a7a01 = L.circleMarker(
+                [-2.183333, -79.883333],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.488675, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_dcb96a4ed832f0b1fdb2cdb4b22653c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93e29a39c619c80b1066d9e5d289eac = $(`<div id="html_f93e29a39c619c80b1066d9e5d289eac" style="width: 100.0%; height: 100.0%;">339547 Pasajeros</div>`)[0];
+                popup_dcb96a4ed832f0b1fdb2cdb4b22653c7.setContent(html_f93e29a39c619c80b1066d9e5d289eac);
+            
+        
+
+        circle_marker_0a99ed5bdf659cdce58eefb2870a7a01.bindPopup(popup_dcb96a4ed832f0b1fdb2cdb4b22653c7)
+        ;
+
+        
+    
+    
+            circle_marker_0a99ed5bdf659cdce58eefb2870a7a01.bindTooltip(
+                `<div>
+                     Ecuador Guayaquil, Ecuador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ad2b0ed6393568f9934bb445a83763b = L.circleMarker(
+                [28.538331, -81.378879],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.813875, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_a82c0cf6a8f94524dd10435dc6af7bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4e2db1e93023ba1e8ac28c9374e4f6 = $(`<div id="html_5a4e2db1e93023ba1e8ac28c9374e4f6" style="width: 100.0%; height: 100.0%;">312555 Pasajeros</div>`)[0];
+                popup_a82c0cf6a8f94524dd10435dc6af7bc6.setContent(html_5a4e2db1e93023ba1e8ac28c9374e4f6);
+            
+        
+
+        circle_marker_1ad2b0ed6393568f9934bb445a83763b.bindPopup(popup_a82c0cf6a8f94524dd10435dc6af7bc6)
+        ;
+
+        
+    
+    
+            circle_marker_1ad2b0ed6393568f9934bb445a83763b.bindTooltip(
+                `<div>
+                     United States Orlando, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_012124841f6ff25886c3da145b8363d8 = L.circleMarker(
+                [13.440833, -89.055556],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.782325, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_c765e554a9cefc50e03c1a8910ca6d47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4382260581cc176971946aec638b49f6 = $(`<div id="html_4382260581cc176971946aec638b49f6" style="width: 100.0%; height: 100.0%;">191293 Pasajeros</div>`)[0];
+                popup_c765e554a9cefc50e03c1a8910ca6d47.setContent(html_4382260581cc176971946aec638b49f6);
+            
+        
+
+        circle_marker_012124841f6ff25886c3da145b8363d8.bindPopup(popup_c765e554a9cefc50e03c1a8910ca6d47)
+        ;
+
+        
+    
+    
+            circle_marker_012124841f6ff25886c3da145b8363d8.bindTooltip(
+                `<div>
+                     El Salvador San Salvador, El Salvador
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f8cd3151d842120ed3c55e2a31d9ef6 = L.circleMarker(
+                [29.762778, -95.383056],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.76175, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_89993263623922f5c327fa7cd5145d9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_514f352492b2a89efb50ed6a665a512e = $(`<div id="html_514f352492b2a89efb50ed6a665a512e" style="width: 100.0%; height: 100.0%;">190470 Pasajeros</div>`)[0];
+                popup_89993263623922f5c327fa7cd5145d9a.setContent(html_514f352492b2a89efb50ed6a665a512e);
+            
+        
+
+        circle_marker_9f8cd3151d842120ed3c55e2a31d9ef6.bindPopup(popup_89993263623922f5c327fa7cd5145d9a)
+        ;
+
+        
+    
+    
+            circle_marker_9f8cd3151d842120ed3c55e2a31d9ef6.bindTooltip(
+                `<div>
+                     United States Houston, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8f04696839c78d146b34a9218de1f256 = L.circleMarker(
+                [48.856895, 2.3508487],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.7507, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_43d711fb2f55300488d3d11bb0c7d6ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f03ca489127dc2ada68cd66a28eafaa = $(`<div id="html_3f03ca489127dc2ada68cd66a28eafaa" style="width: 100.0%; height: 100.0%;">190028 Pasajeros</div>`)[0];
+                popup_43d711fb2f55300488d3d11bb0c7d6ce.setContent(html_3f03ca489127dc2ada68cd66a28eafaa);
+            
+        
+
+        circle_marker_8f04696839c78d146b34a9218de1f256.bindPopup(popup_43d711fb2f55300488d3d11bb0c7d6ce)
+        ;
+
+        
+    
+    
+            circle_marker_8f04696839c78d146b34a9218de1f256.bindTooltip(
+                `<div>
+                     France Paris, France
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_23b6e2124da7df04ca9b4400d922021e = L.circleMarker(
+                [41.387917, 2.1699187],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.7046, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_308a9490bb5e22fda4c5734ccefe1d99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ef7e01161abd8126de32d41756a188c = $(`<div id="html_0ef7e01161abd8126de32d41756a188c" style="width: 100.0%; height: 100.0%;">188184 Pasajeros</div>`)[0];
+                popup_308a9490bb5e22fda4c5734ccefe1d99.setContent(html_0ef7e01161abd8126de32d41756a188c);
+            
+        
+
+        circle_marker_23b6e2124da7df04ca9b4400d922021e.bindPopup(popup_308a9490bb5e22fda4c5734ccefe1d99)
+        ;
+
+        
+    
+    
+            circle_marker_23b6e2124da7df04ca9b4400d922021e.bindTooltip(
+                `<div>
+                     Spain Barcelona, Spain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b90535aaac0cb63937c42422e089a8a2 = L.circleMarker(
+                [10.5027833, -66.9190455],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.650075, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_1b9ffb38fec4a07b980eb7af325190d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b0a84d4ea8448b151899d6ae672f152 = $(`<div id="html_1b0a84d4ea8448b151899d6ae672f152" style="width: 100.0%; height: 100.0%;">186003 Pasajeros</div>`)[0];
+                popup_1b9ffb38fec4a07b980eb7af325190d4.setContent(html_1b0a84d4ea8448b151899d6ae672f152);
+            
+        
+
+        circle_marker_b90535aaac0cb63937c42422e089a8a2.bindPopup(popup_1b9ffb38fec4a07b980eb7af325190d4)
+        ;
+
+        
+    
+    
+            circle_marker_b90535aaac0cb63937c42422e089a8a2.bindTooltip(
+                `<div>
+                     Venezuela Caracas, Venezuela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a9c88b8e6e9d4e703643a726282280a6 = L.circleMarker(
+                [-34.822222, -58.535833],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5899, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_dabf2608d6c5410cbb0f421a5f8553c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85e4c5d9e6b2d114d09d44a94fe1cad8 = $(`<div id="html_85e4c5d9e6b2d114d09d44a94fe1cad8" style="width: 100.0%; height: 100.0%;">183596 Pasajeros</div>`)[0];
+                popup_dabf2608d6c5410cbb0f421a5f8553c8.setContent(html_85e4c5d9e6b2d114d09d44a94fe1cad8);
+            
+        
+
+        circle_marker_a9c88b8e6e9d4e703643a726282280a6.bindPopup(popup_dabf2608d6c5410cbb0f421a5f8553c8)
+        ;
+
+        
+    
+    
+            circle_marker_a9c88b8e6e9d4e703643a726282280a6.bindTooltip(
+                `<div>
+                     Argentina Buenos Aires, Argentina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_35c5389b0f27e40e9cbe269e14212bb5 = L.circleMarker(
+                [18.533333, -68.366667],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.143525, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_a89619a0d0aefc7bd49aac27b69abecb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_847e0d0214b521ee942e61b03aa3d363 = $(`<div id="html_847e0d0214b521ee942e61b03aa3d363" style="width: 100.0%; height: 100.0%;">165741 Pasajeros</div>`)[0];
+                popup_a89619a0d0aefc7bd49aac27b69abecb.setContent(html_847e0d0214b521ee942e61b03aa3d363);
+            
+        
+
+        circle_marker_35c5389b0f27e40e9cbe269e14212bb5.bindPopup(popup_a89619a0d0aefc7bd49aac27b69abecb)
+        ;
+
+        
+    
+    
+            circle_marker_35c5389b0f27e40e9cbe269e14212bb5.bindTooltip(
+                `<div>
+                     Dominican Republic Punta Cana, Dominican Republic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2ee7688fc2d7ee01c870e8951fe3b91e = L.circleMarker(
+                [51.5001524, -0.1262362],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0137, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_b46caa920231f6bbf64c8312824e0c19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4acbe4fd23411dc200cb39e179e167c = $(`<div id="html_d4acbe4fd23411dc200cb39e179e167c" style="width: 100.0%; height: 100.0%;">160548 Pasajeros</div>`)[0];
+                popup_b46caa920231f6bbf64c8312824e0c19.setContent(html_d4acbe4fd23411dc200cb39e179e167c);
+            
+        
+
+        circle_marker_2ee7688fc2d7ee01c870e8951fe3b91e.bindPopup(popup_b46caa920231f6bbf64c8312824e0c19)
+        ;
+
+        
+    
+    
+            circle_marker_2ee7688fc2d7ee01c870e8951fe3b91e.bindTooltip(
+                `<div>
+                     United Kingdom London–Heathrow, United Kingdom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e2ce66981bd961dda91b56fa5f2a3fd5 = L.circleMarker(
+                [9.909576, -84.05406],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.796475, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_5167a81c1e05f094167ba6b70c9a08c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd527e0504a31930d94417377780f3f8 = $(`<div id="html_bd527e0504a31930d94417377780f3f8" style="width: 100.0%; height: 100.0%;">151859 Pasajeros</div>`)[0];
+                popup_5167a81c1e05f094167ba6b70c9a08c5.setContent(html_bd527e0504a31930d94417377780f3f8);
+            
+        
+
+        circle_marker_e2ce66981bd961dda91b56fa5f2a3fd5.bindPopup(popup_5167a81c1e05f094167ba6b70c9a08c5)
+        ;
+
+        
+    
+    
+            circle_marker_e2ce66981bd961dda91b56fa5f2a3fd5.bindTooltip(
+                `<div>
+                     Costa Rica San Jose, Costa Rica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_143437f9cfd4b0bbd58205d8c05255e1 = L.circleMarker(
+                [50.110884, 8.6794922],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.794975, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_c97291dc37a75931aaa09608c529bce9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2a1b796501ee4a82709f51c7c706fcd = $(`<div id="html_b2a1b796501ee4a82709f51c7c706fcd" style="width: 100.0%; height: 100.0%;">151799 Pasajeros</div>`)[0];
+                popup_c97291dc37a75931aaa09608c529bce9.setContent(html_b2a1b796501ee4a82709f51c7c706fcd);
+            
+        
+
+        circle_marker_143437f9cfd4b0bbd58205d8c05255e1.bindPopup(popup_c97291dc37a75931aaa09608c529bce9)
+        ;
+
+        
+    
+    
+            circle_marker_143437f9cfd4b0bbd58205d8c05255e1.bindTooltip(
+                `<div>
+                     Germany Frankfurt, Germany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_897ab0406e9a5ddba50662775335d787 = L.circleMarker(
+                [33.748547, -84.391502],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.759425, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_87e5780c412867a80cff95669861e815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_807ab0d4d37b4ae26bdc60d6edeeb2c6 = $(`<div id="html_807ab0d4d37b4ae26bdc60d6edeeb2c6" style="width: 100.0%; height: 100.0%;">150377 Pasajeros</div>`)[0];
+                popup_87e5780c412867a80cff95669861e815.setContent(html_807ab0d4d37b4ae26bdc60d6edeeb2c6);
+            
+        
+
+        circle_marker_897ab0406e9a5ddba50662775335d787.bindPopup(popup_87e5780c412867a80cff95669861e815)
+        ;
+
+        
+    
+    
+            circle_marker_897ab0406e9a5ddba50662775335d787.bindTooltip(
+                `<div>
+                     United States Atlanta, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_682f1821de3ece089d9446fe90b41e0f = L.circleMarker(
+                [12.501389, -70.015278],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2298, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_053b4f344dae9af829eff0312aebc26c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5acebf02a9f2fe4846de5e7dce36fa81 = $(`<div id="html_5acebf02a9f2fe4846de5e7dce36fa81" style="width: 100.0%; height: 100.0%;">129192 Pasajeros</div>`)[0];
+                popup_053b4f344dae9af829eff0312aebc26c.setContent(html_5acebf02a9f2fe4846de5e7dce36fa81);
+            
+        
+
+        circle_marker_682f1821de3ece089d9446fe90b41e0f.bindPopup(popup_053b4f344dae9af829eff0312aebc26c)
+        ;
+
+        
+    
+    
+            circle_marker_682f1821de3ece089d9446fe90b41e0f.bindTooltip(
+                `<div>
+                     Aruba Oranjestad, Aruba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_68d00f91449fb9abed3c5676a0980b8d = L.circleMarker(
+                [-22.9014475, -43.1789159],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.190425, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_11e2e546b16403205d2cb45314abb0ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53378401f73c3e23a3477b3b1b1e3bfd = $(`<div id="html_53378401f73c3e23a3477b3b1b1e3bfd" style="width: 100.0%; height: 100.0%;">127617 Pasajeros</div>`)[0];
+                popup_11e2e546b16403205d2cb45314abb0ac.setContent(html_53378401f73c3e23a3477b3b1b1e3bfd);
+            
+        
+
+        circle_marker_68d00f91449fb9abed3c5676a0980b8d.bindPopup(popup_11e2e546b16403205d2cb45314abb0ac)
+        ;
+
+        
+    
+    
+            circle_marker_68d00f91449fb9abed3c5676a0980b8d.bindTooltip(
+                `<div>
+                     Brazil Rio de Janeiro, Brazil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f9b9f8115bf948a01e59bea2a32dc7e = L.circleMarker(
+                [22.989167, -82.409167],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.73205, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_471c61f48de0ef2284423e5953605a11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c612246b6784dfd1c125727ae61da3f = $(`<div id="html_5c612246b6784dfd1c125727ae61da3f" style="width: 100.0%; height: 100.0%;">109282 Pasajeros</div>`)[0];
+                popup_471c61f48de0ef2284423e5953605a11.setContent(html_5c612246b6784dfd1c125727ae61da3f);
+            
+        
+
+        circle_marker_5f9b9f8115bf948a01e59bea2a32dc7e.bindPopup(popup_471c61f48de0ef2284423e5953605a11)
+        ;
+
+        
+    
+    
+            circle_marker_5f9b9f8115bf948a01e59bea2a32dc7e.bindTooltip(
+                `<div>
+                     Cuba Havana, Cuba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d0a5b84dd114f522e7154f997130594f = L.circleMarker(
+                [34.052238, -118.243344],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.454725, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_bcacb20dc920ea91f1a34caf2f995b4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16393ad454413739766bfd1bffa8544c = $(`<div id="html_16393ad454413739766bfd1bffa8544c" style="width: 100.0%; height: 100.0%;">98189 Pasajeros</div>`)[0];
+                popup_bcacb20dc920ea91f1a34caf2f995b4d.setContent(html_16393ad454413739766bfd1bffa8544c);
+            
+        
+
+        circle_marker_d0a5b84dd114f522e7154f997130594f.bindPopup(popup_bcacb20dc920ea91f1a34caf2f995b4d)
+        ;
+
+        
+    
+    
+            circle_marker_d0a5b84dd114f522e7154f997130594f.bindTooltip(
+                `<div>
+                     United States Los Angeles, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b78db53a07b93537ae61eb3109a5303 = L.circleMarker(
+                [18.4720187, -69.9020309],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.274825, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_6c580685493b2ff75ae9422f4dc15b23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839585cc390e3b86bc0af89b5b70699a = $(`<div id="html_839585cc390e3b86bc0af89b5b70699a" style="width: 100.0%; height: 100.0%;">90993 Pasajeros</div>`)[0];
+                popup_6c580685493b2ff75ae9422f4dc15b23.setContent(html_839585cc390e3b86bc0af89b5b70699a);
+            
+        
+
+        circle_marker_9b78db53a07b93537ae61eb3109a5303.bindPopup(popup_6c580685493b2ff75ae9422f4dc15b23)
+        ;
+
+        
+    
+    
+            circle_marker_9b78db53a07b93537ae61eb3109a5303.bindTooltip(
+                `<div>
+                     Dominican Republic Santo Domingo, Dominican Republic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e062b822b276d3368899f2a9e111095 = L.circleMarker(
+                [43.6518927, -79.381713],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.147675, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_4448ca6ddec27a894e33ed0713150015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14e1bcf77eeb0ecf7cf4418a948686b0 = $(`<div id="html_14e1bcf77eeb0ecf7cf4418a948686b0" style="width: 100.0%; height: 100.0%;">85907 Pasajeros</div>`)[0];
+                popup_4448ca6ddec27a894e33ed0713150015.setContent(html_14e1bcf77eeb0ecf7cf4418a948686b0);
+            
+        
+
+        circle_marker_1e062b822b276d3368899f2a9e111095.bindPopup(popup_4448ca6ddec27a894e33ed0713150015)
+        ;
+
+        
+    
+    
+            circle_marker_1e062b822b276d3368899f2a9e111095.bindTooltip(
+                `<div>
+                     Canada Toronto, Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_91461614d1c55f449cb70cf14b34cc7e = L.circleMarker(
+                [40.72422, -74.172574],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1363, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_e418eccb82e0cf1ffb5c7cbf208f8311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a41e557ee060ef9a595f38312a388e = $(`<div id="html_e0a41e557ee060ef9a595f38312a388e" style="width: 100.0%; height: 100.0%;">85452 Pasajeros</div>`)[0];
+                popup_e418eccb82e0cf1ffb5c7cbf208f8311.setContent(html_e0a41e557ee060ef9a595f38312a388e);
+            
+        
+
+        circle_marker_91461614d1c55f449cb70cf14b34cc7e.bindPopup(popup_e418eccb82e0cf1ffb5c7cbf208f8311)
+        ;
+
+        
+    
+    
+            circle_marker_91461614d1c55f449cb70cf14b34cc7e.bindTooltip(
+                `<div>
+                     United States Newark, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a3edc994410acdd17528ae16d401036 = L.circleMarker(
+                [52.3731663, 4.8906596],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.10275, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_48dc5e6a1dec317880b1c290dd8a4636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_007d9805fa58dd780e3622c9210ea079 = $(`<div id="html_007d9805fa58dd780e3622c9210ea079" style="width: 100.0%; height: 100.0%;">84110 Pasajeros</div>`)[0];
+                popup_48dc5e6a1dec317880b1c290dd8a4636.setContent(html_007d9805fa58dd780e3622c9210ea079);
+            
+        
+
+        circle_marker_7a3edc994410acdd17528ae16d401036.bindPopup(popup_48dc5e6a1dec317880b1c290dd8a4636)
+        ;
+
+        
+    
+    
+            circle_marker_7a3edc994410acdd17528ae16d401036.bindTooltip(
+                `<div>
+                     Netherlands Amsterdam, The Netherlands
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_09495dc85a0ea0e61c5a8b0b955fad6b = L.circleMarker(
+                [38.944444, -77.455833],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0671, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_fac1b67fbba6889afbec548fb5cd6450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9a13aa3bf7ad767bac50be9fa8bb36e = $(`<div id="html_d9a13aa3bf7ad767bac50be9fa8bb36e" style="width: 100.0%; height: 100.0%;">82684 Pasajeros</div>`)[0];
+                popup_fac1b67fbba6889afbec548fb5cd6450.setContent(html_d9a13aa3bf7ad767bac50be9fa8bb36e);
+            
+        
+
+        circle_marker_09495dc85a0ea0e61c5a8b0b955fad6b.bindPopup(popup_fac1b67fbba6889afbec548fb5cd6450)
+        ;
+
+        
+    
+    
+            circle_marker_09495dc85a0ea0e61c5a8b0b955fad6b.bindTooltip(
+                `<div>
+                     United States Washington, United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6ed51e2b8c8838cc9b085199a0443d5 = L.circleMarker(
+                [32.763, -97.0326],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.963275, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_696fd261de0f46482e5bbbbf4fe034e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b433b5061bf66ebc2f32dd10005ccfb3 = $(`<div id="html_b433b5061bf66ebc2f32dd10005ccfb3" style="width: 100.0%; height: 100.0%;">78531 Pasajeros</div>`)[0];
+                popup_696fd261de0f46482e5bbbbf4fe034e4.setContent(html_b433b5061bf66ebc2f32dd10005ccfb3);
+            
+        
+
+        circle_marker_c6ed51e2b8c8838cc9b085199a0443d5.bindPopup(popup_696fd261de0f46482e5bbbbf4fe034e4)
+        ;
+
+        
+    
+    
+            circle_marker_c6ed51e2b8c8838cc9b085199a0443d5.bindTooltip(
+                `<div>
+                     United States Dallas/Fort Worth United States
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4244b51e76f966299bcecdcfc2bdbcc2 = L.circleMarker(
+                [8.94875, -79.5644],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.52265, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_0406d0c0596085b92868981b3c9b5c54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b68d03ed36a09534a413bf2ddbf6a23b = $(`<div id="html_b68d03ed36a09534a413bf2ddbf6a23b" style="width: 100.0%; height: 100.0%;">60906 Pasajeros</div>`)[0];
+                popup_0406d0c0596085b92868981b3c9b5c54.setContent(html_b68d03ed36a09534a413bf2ddbf6a23b);
+            
+        
+
+        circle_marker_4244b51e76f966299bcecdcfc2bdbcc2.bindPopup(popup_0406d0c0596085b92868981b3c9b5c54)
+        ;
+
+        
+    
+    
+            circle_marker_4244b51e76f966299bcecdcfc2bdbcc2.bindTooltip(
+                `<div>
+                     Panama Panama City-Balboa, Panama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1000c002a28c48784dde32f121fdd4d0 = L.circleMarker(
+                [14.613333, -90.535278],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.497525, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_70a38d1800442d2a570eec9e7fc6113f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d2e6aaf2e3b46228ff9fbcb4b829432 = $(`<div id="html_7d2e6aaf2e3b46228ff9fbcb4b829432" style="width: 100.0%; height: 100.0%;">59901 Pasajeros</div>`)[0];
+                popup_70a38d1800442d2a570eec9e7fc6113f.setContent(html_7d2e6aaf2e3b46228ff9fbcb4b829432);
+            
+        
+
+        circle_marker_1000c002a28c48784dde32f121fdd4d0.bindPopup(popup_70a38d1800442d2a570eec9e7fc6113f)
+        ;
+
+        
+    
+    
+            circle_marker_1000c002a28c48784dde32f121fdd4d0.bindTooltip(
+                `<div>
+                     Guatemala Guatemala City, Guatemala
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e9125c34bc413a7637ad1e3ccd723e6f = L.circleMarker(
+                [12.188889, -68.959722],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.432125, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_0f5398006824c400409e72944149eadb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ef5ade9dc3423279e9127a1e298b52a = $(`<div id="html_9ef5ade9dc3423279e9127a1e298b52a" style="width: 100.0%; height: 100.0%;">57285 Pasajeros</div>`)[0];
+                popup_0f5398006824c400409e72944149eadb.setContent(html_9ef5ade9dc3423279e9127a1e298b52a);
+            
+        
+
+        circle_marker_e9125c34bc413a7637ad1e3ccd723e6f.bindPopup(popup_0f5398006824c400409e72944149eadb)
+        ;
+
+        
+    
+    
+            circle_marker_e9125c34bc413a7637ad1e3ccd723e6f.bindTooltip(
+                `<div>
+                     Curaçao Willemstad, Curaçao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0fb09afeb0486542e140568e738a2f2f = L.circleMarker(
+                [-3.718333, -38.542778],
+                {"bubblingMouseEvents": true, "color": "#5fa8d3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5fa8d3", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.39135, "stroke": true, "weight": 3}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+        var popup_3f9562857631971a120f84db2ccb346b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01303342070504628a479062f5c0bed = $(`<div id="html_b01303342070504628a479062f5c0bed" style="width: 100.0%; height: 100.0%;">55654 Pasajeros</div>`)[0];
+                popup_3f9562857631971a120f84db2ccb346b.setContent(html_b01303342070504628a479062f5c0bed);
+            
+        
+
+        circle_marker_0fb09afeb0486542e140568e738a2f2f.bindPopup(popup_3f9562857631971a120f84db2ccb346b)
+        ;
+
+        
+    
+    
+            circle_marker_0fb09afeb0486542e140568e738a2f2f.bindTooltip(
+                `<div>
+                     Brazil Fortaleza, Brazil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var tile_layer_1903eef190ecf9b17ad0a5ee0aced7a2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_7c72c4f8216e911ecc13e74bb7baa914 = new L.Control.MiniMap(
+                tile_layer_1903eef190ecf9b17ad0a5ee0aced7a2,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": false, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_3acbb6b6f5234de8e2479d52f8ef7dd7.addControl(mini_map_7c72c4f8216e911ecc13e74bb7baa914);
+        
+    
+            var tile_layer_4884ac707d3f3dcacccae8ee751cc6d2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_91b316caa2fd17e82f67704213d5e261 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_c2081c4131656f4d059dec375551bff8 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_b88f84d291711a6bce350d770866623a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_b5a3518dc604d733c736e4a6ea987351 = L.tileLayer(
+                "https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png",
+                {"attribution": "Map \u003ca href=\"https://memomaps.de/\"\u003ememomaps.de\u003c/a\u003e \u003ca href=\"http://creativecommons.org/licenses/by-sa/2.0/\"\u003eCC-BY-SA\u003c/a\u003e, map data \u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_038fa68a58e67478eea303c81e14fe47 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Esri", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_1e3bc3e817c9f969e203450c0a1120fb = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_ad459b3a04658c7ea005932d822d18e2 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+                {"attribution": "Source: National Geographic", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var tile_layer_664b40ad95961522cd604d44936376ee = L.tileLayer(
+                "https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png",
+                {"attribution": "CyclOSM - Open Bicycle render", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+        
+    
+            var layer_control_8d53a585d1b9f236018cfe0b3a65dd2c = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_d316195c4df78823ead2b7d01115132a,
+                    "stamenterrain" : tile_layer_4884ac707d3f3dcacccae8ee751cc6d2,
+                    "stamentoner" : tile_layer_91b316caa2fd17e82f67704213d5e261,
+                    "cartodbpositron" : tile_layer_c2081c4131656f4d059dec375551bff8,
+                    "cartodbdark_matter" : tile_layer_b88f84d291711a6bce350d770866623a,
+                    "Karte" : tile_layer_b5a3518dc604d733c736e4a6ea987351,
+                    "Esri WorldImagery" : tile_layer_038fa68a58e67478eea303c81e14fe47,
+                    "World Street Map" : tile_layer_1e3bc3e817c9f969e203450c0a1120fb,
+                    "NatGeo" : tile_layer_ad459b3a04658c7ea005932d822d18e2,
+                    "Cycle" : tile_layer_664b40ad95961522cd604d44936376ee,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_8d53a585d1b9f236018cfe0b3a65dd2c.base_layers,
+                layer_control_8d53a585d1b9f236018cfe0b3a65dd2c.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_3acbb6b6f5234de8e2479d52f8ef7dd7);
+            tile_layer_4884ac707d3f3dcacccae8ee751cc6d2.remove();
+            tile_layer_91b316caa2fd17e82f67704213d5e261.remove();
+            tile_layer_c2081c4131656f4d059dec375551bff8.remove();
+            tile_layer_b88f84d291711a6bce350d770866623a.remove();
+            tile_layer_b5a3518dc604d733c736e4a6ea987351.remove();
+            tile_layer_038fa68a58e67478eea303c81e14fe47.remove();
+            tile_layer_1e3bc3e817c9f969e203450c0a1120fb.remove();
+            tile_layer_ad459b3a04658c7ea005932d822d18e2.remove();
+            tile_layer_664b40ad95961522cd604d44936376ee.remove();
+        
+</script>
+</html>
